@@ -18,8 +18,8 @@ class CreateTasksTable extends Migration
             $table->string('tasks_name');
             $table->text('tasks_description');
             $table->unsignedBigInteger('user_id');
-            $table->timestamp('tasks_date_assigned');
-            $table->timestamp('tasks_due_date');
+            $table->timestamp('tasks_date_assigned', 0);
+            $table->timestamp('tasks_due_date', 0);
             $table->timestamps();
 
             $table->foreign('user_id')
