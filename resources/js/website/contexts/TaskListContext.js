@@ -15,8 +15,8 @@ const TaskListContextProvider = props => {
   const [editItem, setEditItem] = useState(null)
 
   // Add tasks
-  const addTask = title => {
-    setTasks([...tasks, { title, id: uuid() }])
+  const addTask = (task_name,task_description,person_assigned,task_due) => {
+    setTasks([...tasks, { task_name,task_description,person_assigned,task_due, id: uuid() }])
   }
 
   // Remove tasks
@@ -37,8 +37,8 @@ const TaskListContextProvider = props => {
   }
 
   // Edit task
-  const editTask = (title, id) => {
-    const newTasks = tasks.map(task => (task.id === id ? { title, id } : task))
+  const editTask = (task_name,task_description,person_assigned,task_due, id) => {
+    const newTasks = tasks.map(task => (task.id === id ? { task_name,task_description,person_assigned,task_due, id } : task))
 
     console.log(newTasks)
 

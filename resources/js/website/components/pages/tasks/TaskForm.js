@@ -28,13 +28,27 @@ const handleSubmit = e => {
       setTaskDue('');
 
     } else {
-        editTask({task_name,task_description,task_assigned,person_assigned,task_due})
+        editTask(task_name,task_description,person_assigned,task_due,editItem.id)
     }
   }
 
-  const handleChange = e => {
-    setTitle(e.target.value)
+  const handleNameChange = e => {
+    setTaskName(e.target.value);
+
   }
+
+const handlePersonChange=e=>{
+    setPersonAssigned(e.target.value);
+}
+
+const handleDescriptionChange=e=>{
+    setTaskDescription(e.target.value);
+}
+
+const handleDateChange=e=>{
+    setTaskDue(e.target.value);
+}
+
 
   useEffect(() => {
     if (editItem) {
@@ -57,18 +71,19 @@ const handleSubmit = e => {
         type="text"
         placeholder="Add Task..."
         value={task_name}
-        onChange={handleChange}
+        onChange={handleNameChange}
         required
         className="task-input"
       />
-      <Datetime />
+
       </label>
+      <Datetime onChange={this.handleDateChange} value={task_due}/>
        <label>
           Task Description
-          <textarea value={task_description} onChange={this.handleChange} />
+          <textarea value={task_description} onChange={this.handleDescriptionChange} />
         </label>
 
-       <select value={person_assigned} onChange={handleChange}>
+       <select value={person_assigned} onChange={handlePersonChange}>
   <option value="grapefruit">Grapefruit</option>
   <option value="lime">Lime</option>
   <option selected value="coconut">Coconut</option>

@@ -1,6 +1,5 @@
 import React from "react";
 import TaskListContextProvider from "../contexts/TaskListContext";
-import TaskList from "./pages/tasks/Task";
 import TaskForm from "./pages/tasks/TaskForm";
 
 import "../App.css";
@@ -14,7 +13,7 @@ const Index = () => {
           <Header />
           <div className="main">
             <TaskForm />
-            <TaskList />
+
           </div>
         </div>
       </div>
