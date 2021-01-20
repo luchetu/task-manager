@@ -16,15 +16,15 @@ const TaskForm = () => {
                 <textarea placeholder="Description" className="task-input" />
 
                 <select className="task-input">
-                    <option value="grapefruit">Grapefruit</option>
-                    <option value="lime">Lime</option>
+                    <option value="grapefruit">Luchetu</option>
+                    <option value="lime">Moses</option>
                     <option selected value="coconut">
-                        Coconut
+                        Anyula
                     </option>
-                    <option value="mango">Mango</option>
+                    <option value="mango">Hillary</option>
                 </select>
                 <div className="buttons">
-                    <button type="submit" className="btn add-task-btn"></button>
+                    <button type="submit" className="btn add-task-btn">Add</button>
                     <button className="btn clear-btn">Clear</button>
                 </div>
             </form>
