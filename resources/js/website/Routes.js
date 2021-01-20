@@ -7,7 +7,7 @@ import {
 import Login from "./components/login/Login";
 import AuthenticatedRoute from './AuthenticatedRoute';
 import Dashboard from "./components/pages/Dashboard";
-import ListTasks from "./components/pages/tasks/Index";
+import ListTasks from "./components/pages/tasks/Task";
 import ListUsers from "./components/pages/users/Index";
 import AddTasks from "./components/pages/tasks/Add";
 import EditTasks from "./components/pages/tasks/Edit";

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Route } from 'react-router-dom';
-import { Redirect, withRouter } from'react-router';
+
 
 const AuthenticatedRoute = ({component: Component, ...rest}) => (
   <Route {...rest} render={props => localStorage.getItem("user.api_token")? (
@@ -11,4 +11,4 @@ const AuthenticatedRoute = ({component: Component, ...rest}) => (
   } />
 );
 
-export default withRouter(AuthenticatedRoute);
+export default AuthenticatedRoute;
