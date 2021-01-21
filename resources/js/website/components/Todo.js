@@ -5,11 +5,15 @@ import { Route, Switch } from "react-router-dom";
 import LoginForm from "./login/LoginForm";
 import "../App.css";
 import Header from "./partials/Header";
+import NavBar from "./partials/NavBar";
 
 const Todo = () => {
     return (
+        <>
+        <NavBar />
         <div className="container">
             <div className="app-wrapper">
+
                 <Header />
                 <div className="main">
                     <Switch>
@@ -19,6 +23,7 @@ const Todo = () => {
                 </div>
             </div>
         </div>
+        </>
     );
 };
 

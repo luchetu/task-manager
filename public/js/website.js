@@ -1988,7 +1988,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Jos
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap);", ""]);
 
 // module
-exports.push([module.i, "* {\n  margin: 0;\n  padding: 0;\n}\n\n.container {\n  background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0);\n  width: 100%;\n  height: 100vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.app-wrapper {\n  background-color: #292f38;\n  width: 25%;\n  min-width: 450px;\n  height: 600px;\n  padding: 30px;\n  box-sizing: border-box;\n  border-radius: 5px;\n  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);\n}\n\n.header h1 {\n  color: #ccc;\n  font-weight: 300;\n  text-align: center;\n  margin: 50px 20px 60px 20px;\n  font-family: 'Josefin Slab', serif;\n}\n\n.main {\n  display: flex;\n  flex-direction: column;\n  align-items: space-between;\n  margin-bottom: 50px;\n  width: 100%;\n}\n\n.form {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin-bottom: 10px;\n}\n\n.list {\n  width: 90%;\n  margin: auto;\n  max-height: 300px;\n  overflow: hidden;\n  overflow-y: auto;\n}\n\n/* width */\n::-webkit-scrollbar {\n  width: 10px;\n}\n\n/* Track */\n::-webkit-scrollbar-track {\n  border-radius: 10px;\n  background-color: #aaa;\n}\n\n/* Handle */\n::-webkit-scrollbar-thumb {\n  background: #444;\n  border-radius: 10px;\n}\n\n.task-input {\n  width: 350px;\n  min-width: 250px;\n  padding: 15px 10px 10px 20px;\n  margin-right: 10px;\n  font-family: 'Josefin Sans', serif;\n  font-size: 15px;\n  color: #ccc;\n  background-color: #1d222b;\n  border: 1px solid #444;\n  outline: none;\n  border-radius: 20px;\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n\n.buttons {\n  display: flex;\n}\n\n.btn {\n  margin: 10px;\n}\n\n.add-task-btn {\n  min-width: 100px;\n  background-color: #790e43;\n  color: #ccc;\n  border: none;\n  font-family: 'Montserrat', sans-serif;\n  font-size: 14px;\n  border-radius: 20px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  outline: none;\n  cursor: pointer;\n}\n\n.list-item {\n  display: flex;\n  justify-content: space-between;\n  margin: 20px 0;\n  padding-bottom: 5px;\n}\n\n.list-item span {\n  color: #999;\n}\n\n.task-btn {\n  cursor: pointer;\n  background-color: transparent;\n  border: none;\n  outline: none;\n}\n\n.btn-delete i {\n  font-size: 16px;\n  color: #bbb;\n  margin-right: 20px;\n}\n\n.btn-edit i {\n  font-size: 16px;\n  color: #bbb;\n  margin-right: 20px;\n}\n\n.clear-btn {\n  width: 100px;\n  height: 35px;\n  background-color: #790e43;\n  color: #ccc;\n  border: none;\n  font-family: 'Montserrat', sans-serif;\n  font-size: 14px;\n  border-radius: 20px;\n  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n  outline: none;\n  cursor: pointer;\n}\n\n.no-tasks {\n  color: #777;\n  text-align: center;\n  font-size: 18px;\n  margin-top: 20px;\n}", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n.container {\n    background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0);\n    width: 100%;\n    height: 100vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.app-wrapper {\n    background-color: #292f38;\n    width: 25%;\n    min-width: 450px;\n    height: 600px;\n    padding: 30px;\n    box-sizing: border-box;\n    border-radius: 5px;\n    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);\n}\n\n.header h1 {\n    color: #ccc;\n    font-weight: 300;\n    text-align: center;\n    margin: 50px 20px 60px 20px;\n    font-family: \"Josefin Slab\", serif;\n}\n\n.main {\n    display: flex;\n    flex-direction: column;\n    align-items: space-between;\n    margin-bottom: 50px;\n    width: 100%;\n}\n\n.form {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 10px;\n}\n\n.list {\n    width: 90%;\n    margin: auto;\n    max-height: 300px;\n    overflow: hidden;\n    overflow-y: auto;\n}\n\n/* width */\n::-webkit-scrollbar {\n    width: 10px;\n}\n\n/* Track */\n::-webkit-scrollbar-track {\n    border-radius: 10px;\n    background-color: #aaa;\n}\n\n/* Handle */\n::-webkit-scrollbar-thumb {\n    background: #444;\n    border-radius: 10px;\n}\n\n.task-input {\n    width: 350px;\n    min-width: 250px;\n    padding: 15px 10px 10px 20px;\n    margin-right: 10px;\n    font-family: \"Josefin Sans\", serif;\n    font-size: 15px;\n    color: #ccc;\n    background-color: #1d222b;\n    border: 1px solid #444;\n    outline: none;\n    border-radius: 20px;\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n\n.buttons {\n    display: flex;\n}\n\n.btn {\n    margin: 10px;\n}\n\n.add-task-btn {\n    min-width: 100px;\n    background-color: #790e43;\n    color: #ccc;\n    border: none;\n    font-family: \"Montserrat\", sans-serif;\n    font-size: 14px;\n    border-radius: 20px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n    outline: none;\n    cursor: pointer;\n}\n\n.list-item {\n    display: flex;\n    justify-content: space-between;\n    margin: 20px 0;\n    padding-bottom: 5px;\n}\n\n.list-item span {\n    color: #999;\n}\n\n.task-btn {\n    cursor: pointer;\n    background-color: transparent;\n    border: none;\n    outline: none;\n}\n\n.btn-delete i {\n    font-size: 16px;\n    color: #bbb;\n    margin-right: 20px;\n}\n\n.btn-edit i {\n    font-size: 16px;\n    color: #bbb;\n    margin-right: 20px;\n}\n\n.clear-btn {\n    width: 100px;\n    height: 35px;\n    background-color: #790e43;\n    color: #ccc;\n    border: none;\n    font-family: \"Montserrat\", sans-serif;\n    font-size: 14px;\n    border-radius: 20px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n    outline: none;\n    cursor: pointer;\n}\n\n.no-tasks {\n    color: #292f38;\n    text-align: center;\n    font-size: 18px;\n    margin-top: 20px;\n}\nul.topnav {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    overflow: hidden;\n    background-color: #333;\n}\n\nul.topnav li {\n    float: left;\n}\n\nul.topnav li a {\n    display: block;\n    color: #bbb;\n    text-align: center;\n    padding: 14px 16px;\n    text-decoration: none;\n}\n\nul.topnav li a:hover:not(.active) {\n    background-color: #111;\n}\n\nul.topnav li.right {\n    float: right;\n}\n\n@media screen and (max-width: 600px) {\n    ul.topnav li.right,\n    ul.topnav li {\n        float: none;\n    }\n}\n", ""]);
 
 // exports
 
@@ -52577,6 +52577,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../App.css */ "./resources/js/website/App.css");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _partials_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./partials/Header */ "./resources/js/website/components/partials/Header.js");
+/* harmony import */ var _partials_NavBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./partials/NavBar */ "./resources/js/website/components/partials/NavBar.js");
  //import TaskListContextProvider from "../contexts/TaskListContext";
 
 
@@ -52585,8 +52586,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 var Todo = function Todo() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_partials_NavBar__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "app-wrapper"
@@ -52599,7 +52601,7 @@ var Todo = function Todo() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/",
     component: _pages_tasks_TaskForm__WEBPACK_IMPORTED_MODULE_1__["default"]
-  })))));
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Todo);
@@ -52715,6 +52717,37 @@ var Header = function Header() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./resources/js/website/components/partials/NavBar.js":
+/*!************************************************************!*\
+  !*** ./resources/js/website/components/partials/NavBar.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return NavBar; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+function NavBar() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    "class": "topnav"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/"
+  }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/login-form"
+  }, "Login")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/tasks"
+  }, "Task List")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/assign-tasks"
+  }, "Assign Tasks"))));
+}
 
 /***/ }),
 
