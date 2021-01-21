@@ -13,7 +13,7 @@ const Todo = () => {
                 <Header />
                 <div className="main">
                     <Switch>
-                        <Route exact path="/login" component={LoginForm} />
+                        <Route exact path="/login-form" component={LoginForm} />
                         <Route path="/" component={TaskForm} />
                     </Switch>
                 </div>

@@ -52574,7 +52574,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _pages_tasks_TaskForm__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/tasks/TaskForm */ "./resources/js/website/components/pages/tasks/TaskForm.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var _login_LoginForm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./login/LoginForm */ "./resources/js/website/components/login/LoginForm.js");
-/* harmony import */ var _login_LoginForm__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_login_LoginForm__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../App.css */ "./resources/js/website/App.css");
 /* harmony import */ var _App_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_App_css__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _partials_Header__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./partials/Header */ "./resources/js/website/components/partials/Header.js");
@@ -52595,8 +52594,8 @@ var Todo = function Todo() {
     className: "main"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     exact: true,
-    path: "/login",
-    component: _login_LoginForm__WEBPACK_IMPORTED_MODULE_3___default.a
+    path: "/login-form",
+    component: _login_LoginForm__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
     path: "/",
     component: _pages_tasks_TaskForm__WEBPACK_IMPORTED_MODULE_1__["default"]
@@ -52611,10 +52610,36 @@ var Todo = function Todo() {
 /*!************************************************************!*\
   !*** ./resources/js/website/components/login/LoginForm.js ***!
   \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
+var LoginForm = function LoginForm() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
+    className: "form"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "text",
+    placeholder: "your email",
+    required: true,
+    className: "task-input"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "password",
+    placeholder: "your password",
+    required: true,
+    className: "task-input"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttons"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "btn clear-btn"
+  }, "Login"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (LoginForm);
 
 /***/ }),
 
