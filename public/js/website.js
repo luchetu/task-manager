@@ -1988,7 +1988,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Jos
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap);", ""]);
 
 // module
-exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n.container {\n    background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0);\n    width: 100%;\n    height: 100vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.app-wrapper {\n    background-color: #292f38;\n    width: 25%;\n    min-width: 450px;\n    height: 600px;\n    padding: 30px;\n    box-sizing: border-box;\n    border-radius: 5px;\n    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);\n}\n\n.header h1 {\n    color: #ccc;\n    font-weight: 300;\n    text-align: center;\n    margin: 50px 20px 60px 20px;\n    font-family: \"Josefin Slab\", serif;\n}\n\n.main {\n    display: flex;\n    flex-direction: column;\n    align-items: space-between;\n    margin-bottom: 50px;\n    width: 100%;\n}\n\n.form {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 10px;\n}\n\n.list {\n    width: 90%;\n    margin: auto;\n    max-height: 300px;\n    overflow: hidden;\n    overflow-y: auto;\n}\n\n/* width */\n::-webkit-scrollbar {\n    width: 10px;\n}\n\n/* Track */\n::-webkit-scrollbar-track {\n    border-radius: 10px;\n    background-color: #aaa;\n}\n\n/* Handle */\n::-webkit-scrollbar-thumb {\n    background: #444;\n    border-radius: 10px;\n}\n\n.task-input {\n    width: 350px;\n    min-width: 250px;\n    padding: 15px 10px 10px 20px;\n    margin-right: 10px;\n    font-family: \"Josefin Sans\", serif;\n    font-size: 15px;\n    color: #ccc;\n    background-color: #1d222b;\n    border: 1px solid #444;\n    outline: none;\n    border-radius: 20px;\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n\n.buttons {\n    display: flex;\n}\n\n.btn {\n    margin: 10px;\n}\n\n.add-task-btn {\n    min-width: 100px;\n    background-color: #790e43;\n    color: #ccc;\n    border: none;\n    font-family: \"Montserrat\", sans-serif;\n    font-size: 14px;\n    border-radius: 20px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n    outline: none;\n    cursor: pointer;\n}\n\n.list-item {\n    display: flex;\n    justify-content: space-between;\n    margin: 20px 0;\n    padding-bottom: 5px;\n}\n\n.list-item span {\n    color: #999;\n}\n\n.task-btn {\n    cursor: pointer;\n    background-color: transparent;\n    border: none;\n    outline: none;\n}\n\n.btn-delete i {\n    font-size: 16px;\n    color: #bbb;\n    margin-right: 20px;\n}\n\n.btn-edit i {\n    font-size: 16px;\n    color: #bbb;\n    margin-right: 20px;\n}\n\n.clear-btn {\n    width: 100px;\n    height: 35px;\n    background-color: #790e43;\n    color: #ccc;\n    border: none;\n    font-family: \"Montserrat\", sans-serif;\n    font-size: 14px;\n    border-radius: 20px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n    outline: none;\n    cursor: pointer;\n}\n\n.no-tasks {\n    color: #292f38;\n    text-align: center;\n    font-size: 18px;\n    margin-top: 20px;\n}\nul.topnav {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    overflow: hidden;\n    background-color: #333;\n}\n\nul.topnav li {\n    float: left;\n}\n\nul.topnav li a {\n    display: block;\n    color: #bbb;\n    text-align: center;\n    padding: 14px 16px;\n    text-decoration: none;\n}\n\nul.topnav li a:hover:not(.active) {\n    background-color: #111;\n}\n\nul.topnav li.right {\n    float: right;\n}\n\n@media screen and (max-width: 600px) {\n    ul.topnav li.right,\n    ul.topnav li {\n        float: none;\n    }\n}\n", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n\n.container {\n    background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0);\n    width: 100%;\n    height: 100vh;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n}\n\n.app-wrapper {\n    background-color: #292f38;\n    width: 25%;\n    min-width: 450px;\n    height: 600px;\n    padding: 30px;\n    box-sizing: border-box;\n    border-radius: 5px;\n    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);\n}\n\n.header h1 {\n    color: #ccc;\n    font-weight: 300;\n    text-align: center;\n    margin: 50px 20px 60px 20px;\n    font-family: \"Josefin Slab\", serif;\n}\n\n.main {\n    display: flex;\n    flex-direction: column;\n    align-items: space-between;\n    margin-bottom: 50px;\n    width: 100%;\n}\n\n.form {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    align-items: center;\n    margin-bottom: 10px;\n}\n\n.list {\n    width: 90%;\n    margin: auto;\n    max-height: 300px;\n    overflow: hidden;\n    overflow-y: auto;\n}\n\n/* width */\n::-webkit-scrollbar {\n    width: 10px;\n}\n\n/* Track */\n::-webkit-scrollbar-track {\n    border-radius: 10px;\n    background-color: #aaa;\n}\n\n/* Handle */\n::-webkit-scrollbar-thumb {\n    background: #444;\n    border-radius: 10px;\n}\n\n.task-input {\n    width: 350px;\n    min-width: 250px;\n    padding: 15px 10px 10px 20px;\n    margin-right: 10px;\n    font-family: \"Josefin Sans\", serif;\n    font-size: 15px;\n    color: #ccc;\n    background-color: #1d222b;\n    border: 1px solid #444;\n    outline: none;\n    border-radius: 20px;\n    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\n}\n\n.buttons {\n    display: flex;\n}\n\n.btn {\n    margin: 10px;\n}\n\n.add-task-btn {\n    min-width: 100px;\n    background-color: #790e43;\n    color: #ccc;\n    border: none;\n    font-family: \"Montserrat\", sans-serif;\n    font-size: 14px;\n    border-radius: 20px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n    outline: none;\n    cursor: pointer;\n}\n\n.list-item {\n    display: flex;\n    justify-content: space-between;\n    margin: 20px 0;\n    padding-bottom: 5px;\n}\n\n.list-item span {\n    color: #999;\n}\n\n.task-btn {\n    cursor: pointer;\n    background-color: transparent;\n    border: none;\n    outline: none;\n}\n\n.btn-delete i {\n    font-size: 16px;\n    color: #bbb;\n    margin-right: 20px;\n}\n\n.btn-edit i {\n    font-size: 16px;\n    color: #bbb;\n    margin-right: 20px;\n}\n\n.clear-btn {\n    width: 100px;\n    height: 35px;\n    background-color: #790e43;\n    color: #ccc;\n    border: none;\n    font-family: \"Montserrat\", sans-serif;\n    font-size: 14px;\n    border-radius: 20px;\n    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);\n    outline: none;\n    cursor: pointer;\n}\n\n.no-tasks {\n    color: #292f38;\n    text-align: center;\n    font-size: 18px;\n    margin-top: 20px;\n}\nul.topnav {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n    overflow: hidden;\n    background-color: #333;\n    font-family: \"Josefin Slab\", serif;\n    font-size: 2rem;\n    justify-content: center;\n    display:flex;\n}\n\nul.topnav li {\n    float: left;\n}\n\nul.topnav li a {\n    display: block;\n    color: #bbb;\n    padding: 14px 16px;\n    text-decoration: none;\n}\n\nul.topnav li a:hover:not(.active) {\n    background-color: #111;\n}\n\nul.topnav li.right {\n    float: right;\n}\n\n@media screen and (max-width: 600px) {\n    ul.topnav li.right,\n    ul.topnav li {\n        float: none;\n    }\n}\n", ""]);
 
 // exports
 
@@ -52619,19 +52619,65 @@ var Todo = function Todo() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _contexts_UsersListContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../contexts/UsersListContext */ "./resources/js/website/contexts/UsersListContext.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 var LoginForm = function LoginForm() {
+  var _useContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_contexts_UsersListContext__WEBPACK_IMPORTED_MODULE_1__["UsersListContext"]),
+      login = _useContext.login;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      _useState2 = _slicedToArray(_useState, 2),
+      email = _useState2[0],
+      setEmail = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      _useState4 = _slicedToArray(_useState3, 2),
+      password = _useState4[0],
+      setPassword = _useState4[1];
+
+  var handleSubmit = function handleSubmit(e) {};
+
+  var handleEmailChange = function handleEmailChange(e) {
+    setEmail(e.target.value);
+  };
+
+  var handlePasswordChange = function handlePasswordChange(e) {
+    setPassword(e.target.value);
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    setPassword('');
+    setEmail('');
+  }, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", {
-    className: "form"
+    className: "form",
+    onSubmit: handleSubmit
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "text",
     placeholder: "your email",
+    value: email,
+    onChange: handleEmailChange,
     required: true,
     className: "task-input"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "password",
     placeholder: "your password",
+    value: password,
+    onChange: handlePasswordChange,
     required: true,
     className: "task-input"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -52748,6 +52794,101 @@ function NavBar() {
     to: "/assign-tasks"
   }, "Assign Tasks"))));
 }
+
+/***/ }),
+
+/***/ "./resources/js/website/contexts/UsersListContext.js":
+/*!***********************************************************!*\
+  !*** ./resources/js/website/contexts/UsersListContext.js ***!
+  \***********************************************************/
+/*! exports provided: UsersListContext, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UsersListContext", function() { return UsersListContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.iterator in Object(iter)) return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+var UsersListContext = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
+
+var UserListProvider = function UserListProvider(props) {
+  var initialState = JSON.parse(localStorage.getItem("users")) || [];
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(initialState),
+      _useState2 = _slicedToArray(_useState, 2),
+      users = _useState2[0],
+      setUsers = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    localStorage.setItem("users", JSON.stringify(users));
+  }, [users]);
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
+      _useState4 = _slicedToArray(_useState3, 2),
+      editUsers = _useState4[0],
+      setEditUsers = _useState4[1]; // Add users
+
+
+  var addUsers = function addUsers(email, password) {
+    setTasks([].concat(_toConsumableArray(users), [{
+      email: email,
+      password: password,
+      id: uuid()
+    }]));
+  }; // Remove users
+
+
+  var removeUser = function removeUser(id) {
+    setUsers(users.filter(function (user) {
+      return user.id !== id;
+    }));
+  }; // Edit task
+
+
+  var editUser = function editUser(email, password, id) {
+    var newUser = users.map(function (user) {
+      return user.id === id ? {
+        email: email,
+        password: password,
+        id: id
+      } : user;
+    });
+    setUsers(newTasks);
+    setEditUsers(null);
+  };
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(UsersListContext.Provider, {
+    value: {
+      users: users,
+      addUsers: addUsers,
+      removeUser: removeUser,
+      editUser: editUser
+    }
+  }, props.children);
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (UserListProvider);
 
 /***/ }),
 
