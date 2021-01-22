@@ -1,29 +1,32 @@
-import React, { useState, useContext, useEffect } from 'react';
-import { UsersListContext } from '../../contexts/UsersListContext';
+import React, { useState, useContext, useEffect } from "react";
+import Auth from '../../../apis/Auth';
 
 const LoginForm = () => {
-    const { login } = useContext(UsersListContext);
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleSubmit = e => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
 
-  }
+    const handleSubmit = e => {
+        e.preventDefault()
+        Auth.login({email:email, password:password}, (response) => {
+            console.log(response);
+        }, (err) => {
+            console.log(err);
+        });
+    }
 
-  const handleEmailChange = e => {
-    setEmail(e.target.value)
-  }
+    const handleEmailChange = e => {
+        setEmail(e.target.value);
+    };
 
-  const handlePasswordChange = e => {
-    setPassword(e.target.value)
-  }
+    const handlePasswordChange = e => {
+        setPassword(e.target.value);
+    };
 
-  useEffect(() => {
-      setPassword('');
-      setEmail('');
-
-  }, [])
-
+    useEffect(() => {
+        setPassword("");
+        setEmail("");
+    }, []);
 
     return (
         <div>
@@ -47,7 +50,9 @@ const LoginForm = () => {
                 />
 
                 <div className="buttons">
-                    <button className="btn clear-btn">Login</button>
+                    <button className="btn add-task-btn">
+                       Login
+                    </button>
                 </div>
             </form>
         </div>

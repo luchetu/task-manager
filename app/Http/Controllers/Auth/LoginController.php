@@ -7,6 +7,7 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Str;
+use App\User;
 
 class LoginController extends Controller
 {
@@ -43,7 +44,7 @@ class LoginController extends Controller
     {
         $this->validateLogin($request);
         if ($this->attemptLogin($request)) {
-            $user = $this->guard()->user();
+            $user = User::all();
             $api_token = Str::random(60);
             $user->api_token = $api_token;
             $user->save();
@@ -55,7 +56,7 @@ class LoginController extends Controller
     }
     public function logout(Request $request)
     {
-        $user = Auth::guard('api')->user();
+        $user = User::all();
         if ($user) {
             $user->api_token = null;
             $user->save();
@@ -65,11 +66,10 @@ class LoginController extends Controller
     }
     public function checkAuth(Request $request)
     {
-        $user = Auth::guard('api')->user();
+        $user = User::all();
         if ($user && $user->is_admin) {
             return response()->json(['state' => 1], 200);
         }
         return response()->json(['state' => 0], 401);
     }
-
 }

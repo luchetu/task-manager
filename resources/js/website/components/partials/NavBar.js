@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function NavBar() {
     return (
         <div>
-            <ul class="topnav">
+            <ul className="topnav">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
