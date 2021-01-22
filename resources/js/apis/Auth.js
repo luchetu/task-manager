@@ -2,7 +2,7 @@ import axios from "axios";
 
 const Auth = {
   login: (data, successCb, failCb) => {
-      axios.post('/login', data).then(response => {
+      axios.post('/api/login', data).then(response => {
 
           successCb(response);
 

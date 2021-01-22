@@ -52474,7 +52474,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Auth = {
   login: function login(data, successCb, failCb) {
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/login', data).then(function (response) {
+    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post('/api/login', data).then(function (response) {
       successCb(response);
     })["catch"](function (err) {
       failCb(err);
