@@ -14,7 +14,7 @@ export default function NavBar() {
                     <Link to="/tasks">Task List</Link>
                 </li>
                 <li>
-                    <Link to="/assign-tasks">Assign Tasks</Link>
+                    <Link to="/add-user">Add Users</Link>
                 </li>
             </ul>
         </div>
